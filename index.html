@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137487828-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-137487828-1');
-    </script>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -24,7 +15,7 @@
 <body>
     <div id='particles-js'> </div>
     <div id='main'>
-        <strong>Welcome Back!~ ようこそ <span id='clock'></span></strong>
+        <strong>Welcome Back Sparrow!~ ようこそ <span id='clock'></span></strong>
         <form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
             <input name="sitesearch" type="hidden" value="">
             <input autocomplete="off" id ='google-search' name="q" placeholder="Search" required="required" type="text">
@@ -36,18 +27,41 @@
             <li id='category-1'> Development
                 <ul id='sub-menu-1'>
                     <li><a id='link-1' href='https://github.com'>Github</a></li>
-                    <li><a id='link-2' href='https://codepen.io'>Codepen</a></li>
+                    <li><a id='link-2' href='https://reddit.com'>Reddit</a></li>
                     <li><a id='link-3' href='https://stackoverflow.com'>Stack Overflow</a></li>
                 </ul>
             </li>
             <li id='category-2'> Social
                 <ul id='sub-menu-2'>
-                    <li><a id='link-1' href='https://twitter.com'>Twitter</a></li>
+                    <li><a id='link-1' href='https://Soundcloud.com'>Soundcloud</a></li>
                     <li><a id='link-2' href='https://www.reddit.com'>Reddit</a></li>
                     <li><a id='link-3' href='https://www.youtube.com'>YouTube</a></li>
-                    <li><a id='link-4' href='https://mail.google.com/mail/u/0/#inbox'>Gmail</a></li>
                 </ul>
             </li>
+            <li id='category-3'> Anime
+                <ul id='sub-menu-3'>
+                    <li><a id='link-1' href='https://animevibe.tv'>AnimeVibe</a></li>
+                    <li><a id='link-1' href='https://kissanime.ru'>KissAnime</a></li>
+                    <li><a id='link-2' href='http://kissmanga.com'>KissManga</a></li>
+                    <li><a id='link-3' href='http://konachan.net'>Konachan</a></li>
+                    <li><a id='link-3' href='http://nyaa.si'>Nyaa.si</a></li> 
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</body>
+<!--JAVASCRIPT-->  
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="js/clock.js"></script>
+<script src="js/theme.js"></script>
+
+<script>
+    particlesJS.load('particles-js', 'particles.json', function(){
+      console.log('particles.json loaded...');
+    });
+</script>
+</html>
+
             <li id='category-3'> Anime
                 <ul id='sub-menu-3'>
                     <li><a id='link-1' href='https://kissanime.ru'>KissAnime</a></li>
